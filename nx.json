@@ -16,7 +16,8 @@
       ]
     },
     "e2e": {
-      "cache": true
+      "cache": true,
+      "inputs": ["default", "^production"]
     },
     "@nx/jest:jest": {
       "cache": true,
@@ -58,6 +59,12 @@
         "style": "css"
       },
       "library": {
+        "style": "css",
+        "linter": "eslint"
+      }
+    },
+    "@nx/next": {
+      "application": {
         "style": "css",
         "linter": "eslint"
       }
