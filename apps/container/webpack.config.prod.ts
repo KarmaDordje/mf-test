@@ -23,8 +23,8 @@ const prodConfig = {
    *   ['app2', 'http://example.com/path/to/app2/remoteEntry.js'],
    * ]
    */
-  remotes: ['projects', 'projects@http://localhost:4201/remoteEntry.js',
-            'about', 'about@http://localhost:4202/remoteEntry.js']
+  remotes: ['projects', 'https://mf-test-htcwluf11-karmadordjes-projects.vercel.app/remote-entry.ts',
+            'about', 'https://mf-test-project-l4pocjz41-karmadordjes-projects.vercel.app/remote-entry.ts']
   ,
 
 };
